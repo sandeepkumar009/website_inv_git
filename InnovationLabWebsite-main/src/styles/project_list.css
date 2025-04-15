@@ -1,0 +1,17 @@
+.homepage {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  

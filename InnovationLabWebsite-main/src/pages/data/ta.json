@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Dadi Rishita",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Saikam Varshita",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Chundi Chandu",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Parvat",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Vaibhav",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Ram charan",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "N Pawan Kumar",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    },
+    {
+      "name": "Shubham",
+      "title": "Undergraduate TA",
+      "photo": "/api/placeholder/200/200",
+      "bio": "Department Name"
+    }
+  ]

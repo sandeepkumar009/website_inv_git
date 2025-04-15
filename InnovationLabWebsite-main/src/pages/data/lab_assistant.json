@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Dr. Sarah Johnson",
+      "title": "Lab Director",
+      "photo": "/api/placeholder/300/300",
+      "bio": "Ph.D. in Computer Science with over 15 years of experience in AI and robotics research."
+    },
+    {
+      "name": "Dr. Michael Chen",
+      "title": "Senior Research Scientist",
+      "photo": "/api/placeholder/300/300",
+      "bio": "Specializes in machine learning algorithms and has published numerous papers in top conferences."
+    },
+    {
+      "name": "Prof. David Williams",
+      "title": "Technical Advisor",
+      "photo": "/api/placeholder/300/300",
+      "bio": "Industrial engineering expert with strong connections to manufacturing and automation industries."
+    },
+    {
+      "name": "Dr. Elena Rodriguez",
+      "title": "Project Coordinator",
+      "photo": "/api/placeholder/300/300",
+      "bio": "Manages cross-disciplinary projects and ensures effective collaboration between teams."
+    }
+  ]
