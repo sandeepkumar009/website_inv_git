@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
-import Particles from 'react-particles';
+import Particles from 'react-tsparticles';
 import { loadFull } from 'tsparticles';
 import '../styles/herosection.css'; // Import the CSS file
 
