@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom'; // removed BrowserRouter
 import './App.css';
 import Home from './pages/home';
 import About from './pages/about';
@@ -15,21 +15,19 @@ import AdminDashboard from "./pages/admin_page";
 
 function App() {
   return (
-    <BrowserRouter basename="/website_inv_git">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} /> 
-        <Route path="/facilities" element={<Facilities />} /> 
-        <Route path="/log_registration" element={<LogRegistration />} /> 
-        <Route path="/ta_schedule" element={<TASchedule />} /> 
-        <Route path="/projects" element={<Projects />} /> 
-        <Route path="/read-more/:projectId" element={<ReadMore />} />
-        <Route path="/external_user_register" element={<ExternalUserRegistration />} /> 
-        <Route path="/adminconfig" element={<AdminConfig />} /> 
-        <Route path="/admin_login_page" element={<AdminLoginPage />} /> 
-        <Route path="/admin_page" element={<AdminDashboard />} />
-      </Routes>
-    </BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/facilities" element={<Facilities />} />
+      <Route path="/log_registration" element={<LogRegistration />} />
+      <Route path="/ta_schedule" element={<TASchedule />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/read-more/:projectId" element={<ReadMore />} />
+      <Route path="/external_user_register" element={<ExternalUserRegistration />} />
+      <Route path="/adminconfig" element={<AdminConfig />} />
+      <Route path="/admin_login_page" element={<AdminLoginPage />} />
+      <Route path="/admin_page" element={<AdminDashboard />} />
+    </Routes>
   );
 }
 
