@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/home';
 import About from './pages/about';
@@ -15,7 +15,7 @@ import AdminDashboard from "./pages/admin_page";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/website_inv_git">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} /> 
@@ -28,10 +28,8 @@ function App() {
         <Route path="/adminconfig" element={<AdminConfig />} /> 
         <Route path="/admin_login_page" element={<AdminLoginPage />} /> 
         <Route path="/admin_page" element={<AdminDashboard />} />
-
-        
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 
