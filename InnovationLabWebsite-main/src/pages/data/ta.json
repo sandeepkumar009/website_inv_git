@@ -2,49 +2,49 @@
     {
       "name": "Dadi Rishita",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
-      "bio": "Department Name"
+      "photo": "/assets/rishitha.jpeg",
+      "bio": "Data Science"
     },
     {
       "name": "Saikam Varshita",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/varshitha.jpeg",
       "bio": "Department Name"
     },
     {
       "name": "Chundi Chandu",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/chandu.jpeg",
       "bio": "Department Name"
     },
     {
       "name": "Parvat",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/parvat.jpeg",
       "bio": "Department Name"
     },
     {
       "name": "Vaibhav",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/vaibhav.jpeg",
       "bio": "Department Name"
     },
     {
       "name": "Ram charan",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/ramcharan.jpeg",
       "bio": "Department Name"
     },
     {
-      "name": "N Pawan Kumar",
+      "name": "Pawan Kumar",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/pawan.jpg",
       "bio": "Department Name"
     },
     {
       "name": "Shubham",
       "title": "Undergraduate TA",
-      "photo": "/api/placeholder/200/200",
+      "photo": "/assets/subham.jpeg",
       "bio": "Department Name"
     }
   ]

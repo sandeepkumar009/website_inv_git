@@ -10,7 +10,7 @@ const Facilities = () => {
       <div>
         <Header />
         <main>   
-          <FacilitiesHero />
+          {/* <FacilitiesHero /> */}
           <PowerMachine />
         </main>
         <Footer/>
