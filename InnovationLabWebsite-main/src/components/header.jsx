@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faCaretDown} from '@fortawesome/free-solid-svg-icons';
 import '../styles/header.css';
@@ -36,7 +37,7 @@ const Header = () => {
                         <a href="/about" className="header__nav-link">About us</a>
                     </li>
                     <li className="header__nav-item">
-                        <a href="/facilities" className="header__nav-link">Facilities</a>
+                        <Link to="/facilities" className="header__nav-link">Facilities</Link>
                     </li>
                     {/* <li className="header__nav-item">
                         <a href="/log_registration" className="header__nav-link">Log/Equipment Register</a>
