@@ -31,10 +31,10 @@ const Header = () => {
             <nav className="header__nav">
                 <ul className="header__nav-list">
                     <li className="header__nav-item">
-                        <a href="/" className="header__nav-link">Home</a>
+                        <Link to="/" className="header__nav-link">Home</Link>
                     </li>
                     <li className="header__nav-item">
-                        <Link to="/about" className="header__nav-link">About us</a>
+                        <Link to="/about" className="header__nav-link">About us</Link>
                     </li>
                     <li className="header__nav-item">
                         <Link to="/facilities" className="header__nav-link">Facilities</Link>
@@ -43,7 +43,7 @@ const Header = () => {
                         <a href="/log_registration" className="header__nav-link">Log/Equipment Register</a>
                     </li> */}
                     <li className="header__nav-item">
-                        <Link to="/ta_schedule" className="header__nav-link">TA</a>
+                        <Link to="/ta_schedule" className="header__nav-link">TA</Link>
                     </li>
                     {/* <li className="header__nav-item">
                         <a href="/projects" className="header__nav-link">Projects</a>
