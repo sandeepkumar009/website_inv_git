@@ -15,6 +15,7 @@ color: #1ed4d7; */
     width: 100%;
     position: sticky;
     z-index: 1000;
+    min-height: 80px;
   }
   
   .header__left {
@@ -25,6 +26,14 @@ color: #1ed4d7; */
   .header__logo {
     height: 80px;
     margin-left: 20px;
+  }
+
+  /* Responsive logo sizes */
+  @media (max-width: 768px) {
+    .header__logo {
+      height: 60px;
+      margin-left: 10px;
+    }
   }
   
   .header__title {
@@ -38,6 +47,8 @@ color: #1ed4d7; */
     display: flex;
     justify-content: center;
   }
+
+  /* Mobile navigation styles handled by Tailwind classes in JSX */
   
   .header__nav-list {
     display: flex;
@@ -59,7 +70,7 @@ color: #1ed4d7; */
     font-size: 16px;
     font-weight: 500;
     padding: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, color 0.3s;
   }
   
   .header__nav-link:hover,
@@ -67,7 +78,20 @@ color: #1ed4d7; */
     background-color: #1463eb;
     color: #fff;
   }
-  
+
+  /* Mobile menu overlay */
+  @media (max-width: 768px) {
+    .header {
+      padding: 10px 0;
+    }
+    
+    .header__nav {
+      display: none;
+    }
+  }
+
+  /* Commented search bar styles - preserved for future use */
+  /* 
   .header__right {
     display: flex;
     align-items: center;
@@ -96,8 +120,9 @@ color: #1ed4d7; */
   
   .header__search-icon {
     font-size: 20px;
-    color: white; /* Changed from black */
+    color: white;
   }
+  */
   
   
   .header__dropdown-icon {
