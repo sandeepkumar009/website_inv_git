@@ -56,7 +56,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2024 Indian Institute of Technology Palakkad. All Rights Reserved.</p>
+        <p>© 2025 Indian Institute of Technology Palakkad. All Rights Reserved. Managed by ananthu@iitpkd.ac.in </p>
       </div>
     </footer>
   );
