@@ -1,10 +1,5 @@
 [
-  {
-    "name": "Dr Jacob Chandapillai",
-    "title": "Chief Innovation Officer",
-    "photo": "/assets/Jacob.jpg",
-    "email": "cio@iitpkd.ac.in"
-  },
+
   {
     "name": "Dr. Anoop Akkoorath Mana",
     "title": "Faculty-in-charge",
@@ -18,15 +13,15 @@
     "email": "ananthu@iitpkd.ac.in"
   },
   {
-    "name": "Mr.Test",
-    "title": "JTS/EE",
+    "name": "Mr.Vinod",
+    "title": "JT-On Contract",
     "photo": "/assets/Anandu.jpg",
-    "email": "ananthu@iitpkd.ac.in"
+    "email": "office1_csquare@iitpkd.ac.in "
   },
   {
     "name": "Mr.test2",
-    "title": "JTS/EE",
+    "title": "JT-On Contract",
     "photo": "/assets/Anandu.jpg",
-    "email": "ananthu@iitpkd.ac.in"
+    "email": "office2_csquare@iitpkd.ac.in "
   }
 ]
