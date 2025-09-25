@@ -27,8 +27,7 @@ const Header = () => {
         <header className="header sticky top-0 flex justify-between items-center px-4 lg:px-6">
             {/* Logo Section - Left */}
             <div className="header__left flex items-center">
-                <img src="./assets/c_logo.png" alt="logo" className="header__logo h-16 lg:h-20"/>
-                <img src="./assets/iitlogo_dark.png" alt="IITPKD logo" className="header__logo h-16 lg:h-20 ml-2" />
+                <img src="./assets/c_logo_t.png" alt="logo" className="header__logo h-16 lg:h-20 ml-6"/>
                 {/* <h1 className="header__title">CSQUARE IITPKD</h1> */}
             </div>
 
@@ -69,6 +68,10 @@ const Header = () => {
                     </li> */}
                 </ul>
             </nav>
+            <div className="header__left flex items-center">
+                <img src="./assets/IITPKD_logo_t.png" alt="IITPKD logo" className="header__logo h-16 lg:h-20 mr-6" />
+                {/* <h1 className="header__title">CSQUARE IITPKD</h1> */}
+            </div>
 
             {/* Mobile Hamburger Button */}
             <button 
@@ -80,11 +83,13 @@ const Header = () => {
             </button>
 
             {/* Mobile Navigation Menu */}
-            <nav className={`header__mobile-nav fixed top-0 left-0 w-full h-full bg-black z-50 transform transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-                <div className="flex justify-between items-center p-4 border-b border-gray-700">
+            <nav className={`header__mobile-nav fixed top-0 left-0 w-full bg-gray-900 rounded-b-xl z-50 transform transition-transform duration-300 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
+                <div className="flex justify-between items-center p-4 bg-black border-b border-gray-700">
                     <div className="flex items-center">
-                        <img src="./assets/c_logo.png" alt="logo" className="h-12"/>
-                        <img src="./assets/iitlogo_dark.png" alt="IITPKD logo" className="h-12 ml-2" />
+                        <img src="./assets/c_logo_t.png" alt="logo" className="h-12"/>
+                    </div>
+                    <div className="flex items-center">
+                        <img src="./assets/IITPKD_logo_t.png" alt="IITPKD logo" className="h-12 ml-2" />
                     </div>
                     <button 
                         className="text-white text-2xl"
