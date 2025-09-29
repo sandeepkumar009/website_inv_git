@@ -42,9 +42,9 @@ const PowerMachine = () => {
   };
 
   return (
-    <div className="power-machine-page">
+    <div className="power-machine-page bg-transparent">
       {/* Navigation Buttons */}
-      <div className="tool-buttons-container">
+      <div className="tool-buttons-container bg-transparent">
         <button onClick={() => scrollToSection('power-tools')}>Power Tools</button>
         <button onClick={() => scrollToSection('electric-tools')}>Electric Tools</button>
         <button onClick={() => scrollToSection('three-d-tools')}>3D Tools</button>
