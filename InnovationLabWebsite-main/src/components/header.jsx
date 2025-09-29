@@ -24,8 +24,10 @@ const Header = () => {
     const toggleMobileMenu = () => setMobileMenuOpen(!isMobileMenuOpen);
 
     return (
-        <header className="header sticky top-0 flex justify-between items-center px-4 lg:px-6">
-            {/* Logo Section - Left */}
+        <header className="header sticky top-0 flex justify-between items-center px-4 lg:px-6 
+                        bg-gradient-to-r from-gray-900 via-black to-gray-900 
+                        shadow-lg border-b border-gray-800 z-50">
+                    {/* Logo Section - Left */}
             <div className="header__left flex items-center">
                 <img src="./assets/c_logo_t.png" alt="logo" className="header__logo h-16 lg:h-20 ml-6"/>
                 {/* <h1 className="header__title">CSQUARE IITPKD</h1> */}
@@ -49,23 +51,7 @@ const Header = () => {
                     <li className="header__nav-item">
                         <Link to="/ta_schedule" className="header__nav-link">TA</Link>
                     </li>
-                    {/* <li className="header__nav-item">
-                        <a href="/projects" className="header__nav-link">Projects</a>
-                    </li>
-                    <li className="header__nav-item">
-                        <a href="/external_user_register" className="header__nav-link">External User register</a>
-                    </li> */}
-                    {/* <li className="header__nav-item"  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                        <a href="/#" className="header__nav-link">Others<FontAwesomeIcon icon={faCaretDown} className="header__dropdown-icon" />
-                    </a>
-                    {isDropdownOpen && (
-                        <ul className="header__dropdown-menu">
-                            <li><a href="/link1">Option 1</a></li>
-                            <li><a href="/link2">Option 2</a></li>
-                            <li><a href="/link3">Option 3</a></li>
-                        </ul>
-                    )}
-                    </li> */}
+                    
                 </ul>
             </nav>
             <div className="header__left flex items-center">
@@ -101,18 +87,54 @@ const Header = () => {
                 </div>
                 <ul className="flex flex-col p-4 space-y-4">
                     <li>
-                        <Link to="/" className="block text-white text-lg py-2 hover:text-blue-400" onClick={toggleMobileMenu}>Home</Link>
+                        <Link 
+                        to="/" 
+                        onClick={toggleMobileMenu}
+                        >
+                        Home
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/about" className="block text-white text-lg py-2 hover:text-blue-400" onClick={toggleMobileMenu}>About us</Link>
+                        <Link 
+                        to="/about" 
+                        className="relative block text-white text-lg py-2 
+                                    after:content-[''] after:absolute after:left-0 after:bottom-0 
+                                    after:h-[2px] after:w-0 after:bg-blue-400 
+                                    after:transition-all after:duration-300 
+                                    hover:after:w-full" 
+                        onClick={toggleMobileMenu}
+                        >
+                        About us
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/facilities" className="block text-white text-lg py-2 hover:text-blue-400" onClick={toggleMobileMenu}>Facilities</Link>
+                        <Link 
+                        to="/facilities" 
+                        className="relative block text-white text-lg py-2 
+                                    after:content-[''] after:absolute after:left-0 after:bottom-0 
+                                    after:h-[2px] after:w-0 after:bg-blue-400 
+                                    after:transition-all after:duration-300 
+                                    hover:after:w-full" 
+                        onClick={toggleMobileMenu}
+                        >
+                        Facilities
+                        </Link>
                     </li>
                     <li>
-                        <Link to="/ta_schedule" className="block text-white text-lg py-2 hover:text-blue-400" onClick={toggleMobileMenu}>TA</Link>
+                        <Link 
+                        to="/ta_schedule" 
+                        className="relative block text-white text-lg py-2 
+                                    after:content-[''] after:absolute after:left-0 after:bottom-0 
+                                    after:h-[2px] after:w-0 after:bg-blue-400 
+                                    after:transition-all after:duration-300 
+                                    hover:after:w-full" 
+                        onClick={toggleMobileMenu}
+                        >
+                        TA
+                        </Link>
                     </li>
                 </ul>
+
             </nav>
 
             {/* Commented Search Bar Section */}
