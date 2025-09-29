@@ -48,8 +48,11 @@ const Header = () => {
                     {/* <li className="header__nav-item">
                         <a href="/log_registration" className="header__nav-link">Log/Equipment Register</a>
                     </li> */}
-                    <li className="header__nav-item">
+                    {/* <li className="header__nav-item">
                         <Link to="/ta_schedule" className="header__nav-link">TA</Link>
+                    </li> */}
+                    <li className="header__nav-item">
+                        <Link to="/guidline" className="header__nav-link">GuidLine</Link>
                     </li>
                     
                 </ul>
@@ -120,7 +123,7 @@ const Header = () => {
                         Facilities
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link 
                         to="/ta_schedule" 
                         className="relative block text-white text-lg py-2 
@@ -132,7 +135,7 @@ const Header = () => {
                         >
                         TA
                         </Link>
-                    </li>
+                    </li> */}
                 </ul>
 
             </nav>
